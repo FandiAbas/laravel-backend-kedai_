@@ -16,9 +16,8 @@
                 <div class="d-sm-none d-lg-inline-block">Hi, {{ auth()->user()->name }}</div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
-                <div class="dropdown-title">Logged in 5 min ago</div>
-                {{-- <a href="{{ route('profile.edit') }}" class="dropdown-item has-icon"> --}}
-                <a href="#" class="dropdown-item has-icon">
+                <div class="dropdown-title">okey Bro</div>
+                <a href="{{route('profil.index')}}" class="dropdown-item has-icon">
                     <i class="far fa-user"></i> Profile
                 </a>
                 <div class="dropdown-divider"></div>
