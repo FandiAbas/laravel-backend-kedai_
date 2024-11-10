@@ -32,7 +32,7 @@ class ProductController extends Controller
             'name' => 'required|min:3|unique:products',
             'price' => 'required|integer',
             'stock' => 'required|integer',
-            'category' => 'required|in:food,drinks,snacks',
+            'category' => 'required|in:food,drink,snack',
             'image' => 'required|image|mimes:png,jpg,jpeg'
         ]);
 
